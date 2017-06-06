@@ -1,0 +1,25 @@
+{
+	"searchBox":"#autocomplete",
+	"searchListBox":"//div[@id='auto_suggestions']//span[@selenium-suggestion='La Argentina']",
+	"checkInHighlighted":".date_input ng-scope date_selected",
+	"tommorrowDate":"//div[@class='calendar_month ng-scope left']//td[contains(@class,'date_enabled')]",
+	"checkOutDate":"//div[@class='calendar_month ng-scope right']//td[contains(@class,'date_enabled')]",
+	"selectGuest":"params.num_guests",
+	"selectRoom":"params.num_rooms",
+	"searchButton":"search_button btn",
+	"hotelList":"ng-scope ng-binding",
+	"nextSearchBox":"//div[@id='auto_suggestions']//span[@selenium-suggestion='hotels near London Zoo']",
+	"checkIn":"//*[@id='autocomplete_wrapper']/div/span[2]",
+	"selectMonth":"//div[@class='calendar_month ng-scope left']//table/caption",
+	"selectDate":"//div[@class='calendar_month ng-scope left']//td",
+	"checkOut":"//div[@class='calendar_month ng-scope right']//td[contains(@class,'date_enabled')]",
+	"searchButton":"search_button btn",
+	"sortByDistance":"//em[@bo-text='sort|to_sort_name']",
+	"sortByMenu":"//div[@class='sort_menu']//ul[@class='sort_list ng-scope']",
+	"sortByPrice":"//ul [@class='dropdown-menu sort_ul']//li[2]",
+	"verifyByPrice":"//em[@bo-text='sort|to_sort_name']",
+	"verifyHotelList":	"[ng-click='build_brands_dropdown=true']"
+	
+	
+		
+}
